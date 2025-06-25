@@ -9,15 +9,13 @@ Los datos utilizados provienen de [Kaggle](https://www.kaggle.com/), con:
 - **+50,000 películas**
 - **+26 millones de ratings** de usuarios
 
-Estos datos permiten generar modelos de recomendación sólidos y diversas opciones para análisis exploratorio.
-
 ---
 
 ## 🧠 Modelo de Recomendación
 
 ### 🔄 Alternating Least Squares (ALS)
 
-Utilizamos el algoritmo **ALS (Alternating Least Squares)**, ampliamente utilizado en sistemas de recomendación colaborativos. Este modelo aprende a partir de la matriz usuario-película de puntuaciones para predecir qué películas podrían gustar a un usuario específico, incluso si no las ha puntuado directamente.
+Se aplica el algoritmo **ALS (Alternating Least Squares)**, ampliamente utilizado en sistemas de recomendación colaborativos. Este modelo aprende a partir de la matriz usuario-película de puntuaciones para predecir qué películas podrían gustar a un usuario específico, incluso si no las ha puntuado directamente.
 
 - Se basa en **factorización de matrices**.
 - Encuentra representaciones latentes (embeddings) de usuarios y películas.
@@ -27,7 +25,7 @@ Utilizamos el algoritmo **ALS (Alternating Least Squares)**, ampliamente utiliza
 
 ## 🔍 Buscador Semántico con Embeddings
 
-Además del sistema colaborativo, implementamos un **buscador inteligente** de películas:
+Además del sistema colaborativo, se ha implementado un **buscador inteligente** de películas:
 
 - Usa **embeddings de texto** para representar títulos y descripciones de las películas.
 - Permite búsquedas por **título parcial o por palabras clave en la descripción**.
@@ -56,7 +54,6 @@ Esto mejora la exploración libre de películas, incluso si el usuario no recuer
 
 ### 🌐 Frontend
 - **React + TypeScript + Vite**:
-  - Interfaz moderna y reactiva.
   - Permite que el usuario navegue, marque películas y vea sus recomendaciones.
   - Integración en tiempo real con Kafka para enviar eventos.
 
