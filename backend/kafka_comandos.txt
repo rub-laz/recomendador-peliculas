@@ -1,0 +1,4 @@
+Para comprobar dentro del contenedor que realmente se utiliza Kafka.
+docker logs eventos_peliculas
+docker exec -it eventos_peliculas /bin/bash
+kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic eventos_peliculas --from-beginning

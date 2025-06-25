@@ -1,0 +1,12 @@
+# Package Files #
+
+data/ProfileReport/peliculas_clean_report.html
+data/raw_data/links.csv
+data/raw_data/peliculas.csv
+data/raw_data/ratings.csv
+# AÑADIR BACKEND - DATA/MOVIES_CLEAN 
+backend/data/movies_clean.csv
+# AÑADIR BACKEND - CREDENCIALES_CASSANDRA 
+backend/credenciales_cassandra
+# REVISAR DIRECTORIO DIST DENTRO DEL FRONTEND
+frontend/public

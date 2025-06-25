@@ -1,0 +1,11 @@
+flask
+flask-cors
+requests
+pandas
+numpy
+python-dotenv
+supabase
+sentence_transformers
+cassandra-driver
+kafka-python
+
